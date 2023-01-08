@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}, 
+		{
+			"name": "SDL Path",
+			"path": "D:/dev/libraries/SDL2-devel-2.24.2-VC/SDL2-2.24.2/include"
+		}
+	], 
+	"build_systems":
+	[
+		{
+			"name": "build.bat",
+			"shell_cmd": "build.bat", 
+			"selector": "source.c++", 
+			"working_dir": "$project_path", 
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		}
+	]
+}
